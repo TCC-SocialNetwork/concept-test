@@ -2,10 +2,11 @@ require './edge'
 
 class User
 
-  attr_accessor :name, :edges
+  attr_accessor :name, :edges, :color
 
   def initialize name
     @name = name
+    @color = :white
     @edges = Array.new
   end
 
