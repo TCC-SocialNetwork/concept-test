@@ -6,4 +6,7 @@ class Graph
     @network = Array.new
   end
 
+  def add_user user
+    @network.push user
+  end
 end

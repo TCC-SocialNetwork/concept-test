@@ -7,4 +7,8 @@ class Edge
     @destiny = destiny
     @labels = Array.new
   end
+
+  def to_s
+  	"#{@origin} -> #{@destiny}"
+  end
 end
